@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
-import style from './style/style.css'
 import logo from './img/logo.png'
 
 export default class Navegacion extends Component {
@@ -10,7 +9,7 @@ export default class Navegacion extends Component {
                 <nav className = "barra-nav">
                 <span className = "navegacion">
                     <Link to = "/"><img src={logo} alt='twitch' /></Link>
-                    <Link to = "/registar">DDDDD</Link>
+                    <Link to = "/registar">Descubrir</Link>
                     <Link to = "/iniciar-sesion">Explorar</Link>
                     <Link to = "/iniciar-sesion">Probar Prime</Link>
                 </span>
@@ -26,7 +25,12 @@ export default class Navegacion extends Component {
                 </span>
             </nav>
                 <div className = "barra-lateral">
-                    <p>Únete a la comunidad de <span>Twitch</span>!</p>
+                    <div>
+
+                    </div>
+                    <div>
+                        Únete a la comunidad de <span className= "nombre">Twitch</span>!
+                    </div>
                 </div>
             </div>
         )

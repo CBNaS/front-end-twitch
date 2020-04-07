@@ -4,8 +4,8 @@ import styled from 'styled-components'
 export default class botonRegistro extends Component {
     render() {
         return (
-            <button style = {styles.button}>
-                Registrar
+            <button style = {styles.primaryButton}>
+                Registrarse
             </button>
         )
     }
@@ -13,8 +13,11 @@ export default class botonRegistro extends Component {
 
 const styles = 
 {
-    button : {
+    primaryButton : {
         background : 'rgb(115, 0, 230)',
-        color : 'white'
+        color : 'white',
+        border : 'none',
+        height : '40px',
+        width : '100px',
     }
 };

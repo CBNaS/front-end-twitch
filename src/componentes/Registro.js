@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class Registro extends Component {
     render() {
         return (
-            <div>
-                Registro de usuario
+            <div className = "contenedor-principal">
+                Registrar nuevo usuario
             </div>
         )
     }
